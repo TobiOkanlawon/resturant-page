@@ -23,7 +23,6 @@ const homePage = function (contentTag) {
   fast. Overall I absolutely LOVED the cataplana and I'll definitely
   return if I go back to Lagos in the future.`;
 
-  contentTag.appendChild(heading);
   contentTag.appendChild(heroImage);
   contentTag.appendChild(secondHeading);
   contentTag.appendChild(sayingOne);

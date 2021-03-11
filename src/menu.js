@@ -1,7 +1,4 @@
 const menu = function (container) {
-  const sectionHeader = document.createElement("h2");
-  sectionHeader.innerText = "Menu";
-
   const paragraph1 = document.createElement("p");
   paragraph1.innerText = `
   Ea amet tempor aute incididunt pariatur commodo aliqua anim ad 
@@ -22,7 +19,6 @@ const menu = function (container) {
   Non pariatur deserunt voluptate nostrud eiusmod dolore consectetur labore in.
   Proident est nulla veniam dolor Lorem sit magna ad mollit esse.`;
 
-  container.appendChild(sectionHeader);
   container.appendChild(paragraph1);
   container.appendChild(paragraph2);
 };
