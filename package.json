@@ -1,0 +1,22 @@
+{
+  "name": "resturant-page",
+  "version": "1.0.0",
+  "description": "A resturant page implementation according to the Odin Project",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "resturant",
+    "page",
+    "the",
+    "odin",
+    "project"
+  ],
+  "author": "Tobi Okanlawon",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
