@@ -1,10 +1,9 @@
-const contact = function (contentTag) {
-  const paragraph = document.createElement("p");
+const element = `
+  <div>
+  <p>
+  Feel free to contact me <a href="mailto:tobi.okanlawon@icloud.com">here</a>. Especially if you are a recruiter :)
+  </p>
+  </div>
+  `;
 
-  const link = '<a href="mailto:tobi.okanlawon@icloud.com">here</a>';
-  paragraph.innerHTML = `Feel free to contact me at ${link}. Especially if you are a recruiter :)`;
-
-  contentTag.appendChild(paragraph);
-};
-
-export default contact;
+export default element;
